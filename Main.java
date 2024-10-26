@@ -114,6 +114,33 @@ public class Main {
             System.out.print(v + "\t");
         }
         System.out.println();
+        arr.sort(null);
+        System.out.println("arr after sorting is: ");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+
+        ArrayList<String> sarr = new ArrayList<>();
+        sarr.add("1");
+        sarr.add("12");
+        sarr.add("23");
+        sarr.add("2");
+        sarr.add("234");
+        sarr.add("3");
+        sarr.add("231");
+
+        System.out.println("sarr is: ");
+        for (String v : sarr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+        sarr.sort(null);
+        System.out.println("sarr after sorting is: ");
+        for (String v : sarr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
         sc.close();
     }
 }
