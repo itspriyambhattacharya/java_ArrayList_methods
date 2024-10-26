@@ -90,6 +90,14 @@ public class Main {
         System.out.println("Last-index of 34 is " + arr.lastIndexOf(34));
         System.out.println("Contains " + arr.contains(34)); // using contains() method
 
+        System.out.println("Size the the ArrayList is " + arr.size()); // Size of the ArrayList
+        System.out.println("Checking whether ArrayList is empty or not: " + arr.isEmpty()); // Checking whether
+        // ArrayList
+        // is empty or not
+        arr.clear(); // Clearing the array
+        System.out.println("Size the the ArrayList after clearing is " + arr.size()); // Size of the ArrayList
+        System.out.println("Checking whether ArrayList is empty or not after clear(): " + arr.isEmpty());
+
         sc.close();
     }
 }
