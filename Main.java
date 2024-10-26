@@ -42,6 +42,38 @@ public class Main {
             System.out.print(v + "\t");
         }
         System.out.println();
+
+        arr.remove(4); // removing value from the specified index
+        arr.remove(2); // removing value from the specified index
+
+        System.out.println("After removing: The array is:\n\n");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+
+        arr.addLast(34);
+        arr.addLast(43);
+        arr.addLast(343);
+        System.out.println("After aadding elements at last of ArrayList: The array is:\n\n");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+        arr.removeFirst(); // removing the first element
+        arr.removeLast(); // removing the last element
+        System.out.println("After removing first and last element: The array is:\n\n");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+        arr.remove(Integer.valueOf(345)); // Removing the first occurance of the specified value
+
+        System.out.println("After removing element from between: The array is:\n\n");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
         sc.close();
     }
 }
