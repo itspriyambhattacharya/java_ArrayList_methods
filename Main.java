@@ -29,6 +29,19 @@ public class Main {
         int e2 = arr.getLast();
         System.out.println("Elem is " + elem);
         System.out.println("First element is " + e1 + "\nLast element is " + e2);
+
+        System.out.println("Before: The array is:\n\n");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+        arr.set(3, 345);
+
+        System.out.println("After: The array is:\n\n");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
         sc.close();
     }
 }
