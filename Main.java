@@ -17,13 +17,18 @@ public class Main {
         for (Integer elemInteger : arr) {
             System.out.println(elemInteger);
         }
+        System.out.println("ArrayList a2");
         a1.add(23);
 
         for (Integer elemInteger : a1) {
             System.out.println(elemInteger);
         }
 
-        ArrayList a2<Integer> = {1,2,3};
+        int elem = arr.get(1);// gets the element from the given index
+        int e1 = arr.getFirst();
+        int e2 = arr.getLast();
+        System.out.println("Elem is " + elem);
+        System.out.println("First element is " + e1 + "\nLast element is " + e2);
         sc.close();
     }
 }
