@@ -77,7 +77,7 @@ public class Main {
 
         int i = arr.indexOf(45);
         System.out.println("Index of 45 is " + i);
-        System.out.println("Index of 34 is " + arr.indexOf(34));
+        System.out.println("Index of 34 is " + arr.indexOf(34)); // using indexOf() method
         System.out.println("Index of 456 is " + arr.indexOf(456));
         arr.add(456);
         arr.add(34);
@@ -86,9 +86,9 @@ public class Main {
             System.out.print(v + "\t");
         }
         System.out.println();
-        System.out.println("Last-index of 456 is " + arr.lastIndexOf(456));
+        System.out.println("Last-index of 456 is " + arr.lastIndexOf(456)); // using lastIndexOf() method
         System.out.println("Last-index of 34 is " + arr.lastIndexOf(34));
-        System.out.println("Contains " + arr.contains(34));
+        System.out.println("Contains " + arr.contains(34)); // using contains() method
 
         sc.close();
     }
