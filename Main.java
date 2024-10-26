@@ -98,6 +98,22 @@ public class Main {
         System.out.println("Size the the ArrayList after clearing is " + arr.size()); // Size of the ArrayList
         System.out.println("Checking whether ArrayList is empty or not after clear(): " + arr.isEmpty());
 
+        arr.add(11);
+        arr.add(2);
+        arr.add(345);
+        arr.add(34);
+        ArrayList<Integer> cloned = new ArrayList<>(arr); // creating copy of an ArrayList
+        arr.remove(3);
+        System.out.println("arr is: ");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+        System.out.println("cloned is: ");
+        for (Integer v : cloned) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
         sc.close();
     }
 }
