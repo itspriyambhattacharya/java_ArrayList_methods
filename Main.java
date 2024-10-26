@@ -35,7 +35,7 @@ public class Main {
             System.out.print(v + "\t");
         }
         System.out.println();
-        arr.set(3, 345);
+        arr.set(3, 345); // replaces the element at position '3' with the value '345'
 
         System.out.println("After: The array is:\n\n");
         for (Integer v : arr) {
