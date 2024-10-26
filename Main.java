@@ -141,6 +141,17 @@ public class Main {
             System.out.print(v + "\t");
         }
         System.out.println();
+
+        System.out.println("arr is: ");
+        for (Integer v : arr) {
+            System.out.print(v + "\t");
+        }
+        System.out.println();
+        ArrayList<Integer> subarr = new ArrayList<>(arr.subList(1, 3));
+        System.out.println("subarr is: ");
+        for (Integer v : subarr) {
+            System.out.print(v + "\t");
+        }
         sc.close();
     }
 }
