@@ -22,6 +22,8 @@ public class Main {
         for (Integer elemInteger : a1) {
             System.out.println(elemInteger);
         }
+
+        ArrayList a2<Integer> = {1,2,3};
         sc.close();
     }
 }
