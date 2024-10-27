@@ -25,6 +25,11 @@ public class CollectionMethodsPractice {
         int min = Collections.min(arr);
         System.out.println("The max element is " + max);
         System.out.println("The min element is " + min);
+
+        // Collections.replaceAll()
+
+        Collections.replaceAll(arr, 46, 455);
+        System.out.println("The replaced ArrayList is " + arr);
         sc.close();
     }
 }
