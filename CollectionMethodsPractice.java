@@ -30,6 +30,16 @@ public class CollectionMethodsPractice {
 
         Collections.replaceAll(arr, 46, 455);
         System.out.println("The replaced ArrayList is " + arr);
+
+        // Collections.binarySearch()
+        Collections.sort(arr);
+        int index = Collections.binarySearch(arr, 3);
+        System.out.println("The array is" + arr);
+        System.out.println("The position of the searched element is " + index);
+
+        // Collections.frequency()
+        int freq = Collections.frequency(arr, 58);
+        System.out.println("The freq is " + freq);
         sc.close();
     }
 }
