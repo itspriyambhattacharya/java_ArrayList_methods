@@ -17,6 +17,14 @@ public class CollectionMethodsPractice {
         // Collections.reverse()
         Collections.reverse(arr);
         System.out.println(arr);
+
+        // Collections.max() and Collections.min()
+
+        System.out.println("The ArrayList is " + arr);
+        int max = Collections.max(arr);
+        int min = Collections.min(arr);
+        System.out.println("The max element is " + max);
+        System.out.println("The min element is " + min);
         sc.close();
     }
 }
